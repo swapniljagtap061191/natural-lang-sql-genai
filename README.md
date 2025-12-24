@@ -214,10 +214,15 @@ For questions or issues, please open an issue on the GitHub repository.
 
 **Note**: Make sure to keep your `.env` file secure and never commit it to version control. The `.gitignore` file is already configured to exclude it.
 
----
+<<<<<<< HEAD
+=======
+- main.py: The main Streamlit application script.
+- langchain_helper.py: This has all the langchain code
+- requirements.txt: A list of required Python packages for the project.
+- few_shots.py: Contains few shot prompts
+- .env: Configuration file for storing your Google API key.
 
-## 📖 Original Project
 
-This project is based on the work by **Dhawal Patel** (Youtube: https://www.youtube.com/watch?v=4wtrl4hnPT8)
-
-As Google Palm API has been deprecated, this project has been upgraded to use Google's newer model: **Google Gemini 2.5 Flash** for improved performance and reliability.
+NOTE: This project is performed by Dhawal Patel (Youtube: https://www.youtube.com/watch?v=4wtrl4hnPT8)
+As there was Google Palm API been used in the project, now is deprecated. I upgraded the project to use Google's newer model: Google Gemini
+>>>>>>> 17f472295df4f258e7f8161aaa8f3a88817178e4
